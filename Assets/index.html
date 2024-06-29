@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Safe Haven Organization</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--NAV BAR-->
     <nav class="top-nav" id="home">
       <div class="container">
         <div class="row justify-content-between">
@@ -35,7 +36,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">FurEver Friends<span>.</span></a>
         <button
@@ -88,37 +89,61 @@
       </div>
     </nav>
 
-<!-- SLIDER 1 -->
-<div class="slider-wrapper owl-carousel owl-theme" id="hero-slider1">
-  <div class="slider1 min-vh-100 bg-cover d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h6 class="text-uppercase">Where Compassion Meets Canines</h6>
-          <h1 class="display-2 my-3">Every Paw<br/>Matters</h1>
-          <a href="#" class="btn btn-brand">Get Started</a>
-          <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <!--Sliders-->
 
- <!-- SLIDER 2 -->
- <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider2">
-  <div class="slider2 min-vh-100 bg-cover d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h6 class="text-uppercase">Where Compassion Meets Canines</h6>
-          <h1 class="display-2 my-3">Every Paw<br/>Matters</h1>
-          <a href="#" class="btn btn-brand">Get Started</a>
-          <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
+    <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+      <div class="slider1 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-uppercase">Where Compassion Meets Canines</h6>
+              <h1 class="display-2 my-3">Every Paw<br />Matters</h1>
+              <a href="#" class="btn btn-brand">Get Started</a>
+              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider2 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="text-uppercase">
+                Paws and People: A Perfect Partnership
+              </h6>
+              <h1 class="display-2 my-3">Heartbeats<br />in Harmony</h1>
+              <a href="#" class="btn btn-brand">Get Started</a>
+              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider3 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!--<h6 class="text-uppercase">Paws and People: A Perfect Partnership</h6>
+                      <h1 class="display-2 my-3">Heartbeats<br>in Harmony</h1>
+                      <a href="#" class="btn btn-brand">Get Started</a>
+                      <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>>-->
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <!--about section-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
